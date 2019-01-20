@@ -66,10 +66,45 @@ nav {
     margin-bottom: 21px;
 }
 
-#mobile .row .col ul li {
+.atm {
     content: "";
     display: block;
     background: url("../images/ATM.svg") no-repeat;
+    padding-left: 40px;
+}
+
+.wallet {
+    content: "";
+    display: block;
+    background: url("../images/wallet2.svg") no-repeat;
+    padding-left: 40px;
+}
+
+.chart {
+    content: "";
+    display: block;
+    background: url("../images/Chart-line1.svg") no-repeat;
+    padding-left: 40px;
+}
+
+.money {
+    content: "";
+    display: block;
+    background: url("../images/Money.svg") no-repeat;
+    padding-left: 40px;
+}
+
+.gihub {
+    content: "";
+    display: block;
+    background: url("../images/Gihub.svg") no-repeat;
+    padding-left: 40px;
+}
+
+.rouble {
+    content: "";
+    display: block;
+    background: url("../images/Rouble.svg") no-repeat;
     padding-left: 40px;
 }
 
