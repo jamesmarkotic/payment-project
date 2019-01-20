@@ -4,11 +4,44 @@
 
 /* Navbar */
 nav {
-    /* background-color: unset; */
+    background-color: #F92676;
+}
+
+.nav-wrapper ul li a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-wrapper ul li a.btn {
+    background: unset;
+    border: 1px solid #FFFFFF;
+    border-radius: 22px;
+    height: 44px;
+    width: 168px;
 }
 
 /* Hero */
+#hero {
+    background: #F92676;
+    color: #FFFFFF
+}
 
+#hero p {
+    font-size: 21px;
+    font-weight: bold;
+}
 
+#hero h1 {
+    font-size: 88px;
+    font-weight: 900;
+}
+
+#hero .row .col a.btn {
+    color: #F92676;
+    background: #FFFFFF;
+    height: 61px;
+    width: 239px;
+    border-radius: 30.5px;
+}
 
 /* Helper Classes */
