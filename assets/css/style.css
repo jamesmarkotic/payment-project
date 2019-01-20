@@ -49,3 +49,23 @@ nav {
 }
 
 /* Helper Classes */
+.quote {
+    background: #F92676;
+    height: 800px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.quote:after {
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-25deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
