@@ -53,6 +53,12 @@ nav {
     border-radius: 30.5px;
 }
 
+/* Mobile Section */
+#mobile h3 {
+    font-weight: 900;
+    margin-bottom: 65px;
+}
+
 /* Helper Classes */
 .quote {
     background: #F92676;
