@@ -24,18 +24,23 @@ nav {
 /* Hero */
 #hero {
     background: #F92676;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-top: 70px;
 }
 
 #hero p {
     font-size: 21px;
     font-weight: bold;
     opacity: .5;
+    margin-top: 60px;
+    margin-bottom: 5px;
 }
 
 #hero h1 {
     font-size: 88px;
     font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 65px;
 }
 
 #hero .row .col a.btn {
