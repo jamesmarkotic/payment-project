@@ -66,12 +66,11 @@ nav {
     margin-bottom: 21px;
 }
 
-#mobile li:before {
+#mobile .row .col ul li {
     content: "";
     display: block;
     background: url("../images/ATM.svg") no-repeat;
-    /* float: left; */
-    margin: 0 6px 0 0;
+    padding-left: 40px;
 }
 
 #mobile p {
@@ -102,3 +101,14 @@ nav {
     transform-origin: 100%;
     z-index: -1;
 }
+
+/* DELETE WHEN DONE!!! */
+/* .test:before {
+    content: "";
+    display: block;
+    background: url("../images/ATM.svg") no-repeat;
+    padding-right: 40px;
+    float: left;
+    width: 36px;
+    height: 36px;
+} */
