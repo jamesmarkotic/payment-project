@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>8AFD395B-CBCF-4FC7-B3C6-9DC49C199AED</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-V2" transform="translate(-167.000000, -1274.000000)">
+            <g id="ATM" transform="translate(164.000000, 1268.000000)">
+                <rect id="bound" x="0" y="0" width="36" height="36"></rect>
+                <rect id="Rectangle-2" fill="#FF0000" opacity="0.3" x="3" y="6" width="30" height="7.5" rx="2"></rect>
+                <path d="M8,11 L11,11 L11,31.8739825 C9.27477279,31.4299397 8,29.8638394 8,28 L8,11 Z M26,11 L26,28 C26,30.209139 24.209139,32 22,32 L15,32 L15,11 L26,11 Z" id="Combined-Shape" fill="#241F20"></path>
+            </g>
+        </g>
+    </g>
+</svg>

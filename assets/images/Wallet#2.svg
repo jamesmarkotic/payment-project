@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>67CD1BF6-5EF5-46DF-B02E-F477F0F5EB33</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-V2" transform="translate(-167.000000, -1458.000000)">
+            <g id="Wallet#2" transform="translate(164.000000, 1457.000000)">
+                <rect id="bound" x="0" y="0" width="36" height="36"></rect>
+                <circle id="Oval-47" fill="#FF0000" opacity="0.3" cx="30.75" cy="18.75" r="2.25"></circle>
+                <path d="M6.5,4.5 L29.5,4.5 C30.6045695,4.5 31.5,5.3954305 31.5,6.5 L31.5,13 C31.5,14.1045695 30.6045695,15 29.5,15 L6.5,15 C5.3954305,15 4.5,14.1045695 4.5,13 L4.5,6.5 C4.5,5.3954305 5.3954305,4.5 6.5,4.5 Z" id="Rectangle-162" fill="#FF0000" opacity="0.3" transform="translate(18.000000, 9.750000) rotate(-15.000000) translate(-18.000000, -9.750000) "></path>
+                <path d="M33,14.0052234 C32.3180585,13.6812683 31.555198,13.5 30.75,13.5 C27.8505051,13.5 25.5,15.8505051 25.5,18.75 C25.5,21.6494949 27.8505051,24 30.75,24 C31.555198,24 32.3180585,23.8187317 33,23.4947766 L33,26 C33,28.209139 31.209139,30 29,30 L7,30 C4.790861,30 3,28.209139 3,26 L3,10 C3,7.790861 4.790861,6 7,6 L29,6 C31.209139,6 33,7.790861 33,10 L33,14.0052234 Z" id="Combined-Shape" fill="#241F20"></path>
+            </g>
+        </g>
+    </g>
+</svg>
