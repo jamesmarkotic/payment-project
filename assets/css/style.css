@@ -16,6 +16,7 @@ nav {
     background: unset;
     border: 1px solid #FFFFFF;
     border-radius: 22px;
+    line-height: 44px;
     height: 44px;
     width: 168px;
 }
@@ -29,6 +30,7 @@ nav {
 #hero p {
     font-size: 21px;
     font-weight: bold;
+    opacity: .5;
 }
 
 #hero h1 {
@@ -37,8 +39,10 @@ nav {
 }
 
 #hero .row .col a.btn {
-    color: #F92676;
+    color: #F6307B;
     background: #FFFFFF;
+    font-size: 20px;
+    line-height: 61px;
     height: 61px;
     width: 239px;
     border-radius: 30.5px;
