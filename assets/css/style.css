@@ -53,6 +53,10 @@ nav {
     border-radius: 30.5px;
 }
 
+#hero .col:nth-child(odd) {
+    margin-top: 50px;
+}
+
 /* Mobile Section */
 #mobile h3 {
     font-weight: 900;
@@ -64,6 +68,13 @@ nav {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 21px;
+}
+
+#mobile p {
+    color: rgba(0,0,0,0.54);
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 88px;
 }
 
 .atm {
@@ -108,11 +119,8 @@ nav {
     padding-left: 40px;
 }
 
-#mobile p {
-    color: rgba(0,0,0,0.54);
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 88px;
+#mobile .m4:nth-child(even) {
+    margin-top: 60px;
 }
 
 /* Helper Classes */
