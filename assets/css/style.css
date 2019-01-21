@@ -120,8 +120,33 @@ nav {
 }
 
 /* Benefits Section */
+#benefit .square {
+    border: 1px solid #1BD2E7;
+    padding: 45px 43px 20px 45px;
+}
+
+#benefit h3 {
+    margin-top: 0;
+}
+
+#benefit .row .m6:nth-child(even) {
+    padding-left: 45px;
+}
+
 #benefit p {
     color: rgba(0,0,0,0.54);
+}
+
+#benefit .p1 {
+    margin-bottom: 30px;
+}
+
+.smile:before {
+    content: "";
+    display: block;
+    background: url("../images/Smile.svg") no-repeat;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -169,14 +194,3 @@ nav {
     transform-origin: 100%;
     z-index: -1;
 }
-
-/* DELETE WHEN DONE!!! */
-/* .test:before {
-    content: "";
-    display: block;
-    background: url("../images/ATM.svg") no-repeat;
-    padding-right: 40px;
-    float: left;
-    width: 36px;
-    height: 36px;
-} */
