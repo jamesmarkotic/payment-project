@@ -21,6 +21,15 @@ nav {
     width: 168px;
 }
 
+.sidenav li a.btn {
+    background: #F92676;
+    border: 1px solid #FFFFFF;
+    border-radius: 22px;
+    line-height: 44px;
+    height: 44px;
+    width: 168px;
+}
+
 /* Hero */
 #hero {
     background: #F92676;
