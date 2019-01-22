@@ -31,6 +31,10 @@ nav {
     width: 168px;
 }
 
+.sidenav li a.btn:hover {
+    background: #F92676;
+}
+
 /* Hero */
 #hero {
     background: #F92676;
@@ -218,7 +222,7 @@ nav {
 
 /* Footer */
 .footer {
-    
+
 }
 
 
