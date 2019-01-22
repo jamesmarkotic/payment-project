@@ -195,6 +195,7 @@ nav {
 #os .col-md-3:nth-child(4) {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 25px;
 }
 
 /* Team Section */
