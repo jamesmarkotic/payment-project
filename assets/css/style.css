@@ -5,6 +5,7 @@
 /* Navbar */
 nav {
     background-color: #F92676;
+    height: 64px;
 }
 
 .nav-wrapper ul li a {
@@ -194,9 +195,6 @@ nav {
 } */
 
 /* Team Section */
-#team .row {
-    padding: 0 100px;
-}
 
 #team .m3 {
     margin-bottom: 40px;
@@ -217,6 +215,12 @@ nav {
 #team .p2 {
     color: rgba(0,0,0,0.54);
 }
+
+/* Footer */
+.footer {
+    
+}
+
 
 /* Helper Classes */
 .h3 {
