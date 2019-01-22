@@ -17,21 +17,21 @@
 
 
     <!-- Navbar Section -->
-    <!-- <div class="navbar-fixed"> -->
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme Logo"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#mobile">Mobile Banking</a></li>
-                <li><a href="#benefit">Early Access</a></li>
-                <li><a href="#os">App OS</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a class="btn waves-effect waves-light" href="#">Early Access</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- </div> -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme Logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#mobile">Mobile Banking</a></li>
+                    <li><a href="#benefit">Early Access</a></li>
+                    <li><a href="#os">App OS</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a class="btn waves-effect waves-light" href="#">Early Access</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#mobile">Mobile Banking</a></li>
@@ -242,7 +242,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, options);
+            var instances = M.Sidenav.init(elems, {});
         });
     </script>
 </body>
