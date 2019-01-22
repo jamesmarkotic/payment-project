@@ -128,7 +128,7 @@ nav {
     padding-left: 40px;
 }
 
-#mobile .m4:nth-child(even) {
+#mobile .col-md-4:nth-child(even) {
     margin-top: 50px;
 }
 

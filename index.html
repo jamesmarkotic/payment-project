@@ -8,40 +8,73 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pngme</title>
 </head>
 
 <body>
-
-
     <!-- Navbar Section -->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme Logo"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#mobile">Mobile Banking</a></li>
-                    <li><a href="#benefit">Early Access</a></li>
-                    <li><a href="#os">App OS</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a class="btn waves-effect waves-light" href="#customform">Early Access</a></li>
-                </ul>
-            </div>
-        </nav>
+    <!-- <div class="container">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"><img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme Logo"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#mobile">Mobile Banking</a></li>
+                        <li><a href="#benefit">Early Access</a></li>
+                        <li><a href="#os">App OS</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a class="btn waves-effect waves-light" href="#customform">Early Access</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div> -->
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </div>
-
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#mobile">Mobile Banking</a></li>
-        <li><a href="#benefit">Early Access</a></li>
-        <li><a href="#os">App OS</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a class="btn waves-effect waves-light" href="#customform">Early Access</a></li>
-    </ul>
     <!-- End Navbar Section -->
-
     <!-- Hero Section -->
     <div id="hero" class="container">
         <div class="row">
@@ -55,21 +88,18 @@
             </div>
         </div>
     </div>
-
     <!-- Hero Image Testing UNCOMMENT BELOW TO SEE ANGLE -->
     <!-- <div class="quote">
     </div> -->
-
     <!-- End Hero Section -->
-
     <!-- Mobile Section -->
     <div id="mobile" class="container">
         <div class="row">
-            <div class="col m12 center-align">
+            <div class="col-md-12 text-center">
                 <img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme logo">
                 <h3 class="h3">Bankless Mobile Banking</h3>
             </div>
-            <div class="col m4">
+            <div class="col-md-4">
                 <ul>
                     <li class="atm">
                         <h5 class="h5">Mobile Payments</h5>
@@ -89,10 +119,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="col m4">
-                <img class="responsive-img" src="./assets/images/White.png" alt="Phone image">
+            <div class="col-md-4">
+                <img class="img-fluid" src="./assets/images/White.png" alt="Phone image">
             </div>
-            <div class="col m4">
+            <div class="col-md-4">
                 <ul>
                     <li class="money">
                         <h5 class="h5">Universal Credit</h5>
@@ -114,7 +144,6 @@
         </div>
     </div>
     <!-- End Mobile Section -->
-
     <!-- Benefits Section -->
     <div id="benefit" class="container">
         <div class="row">
@@ -154,7 +183,6 @@
             </div>
         </div>
     </div>
-
     <!-- OS Section -->
     <div id="os" class="container">
         <h3 class="h3 center-align">Available on Android and iOS</h3>
@@ -185,7 +213,6 @@
             </div>
         </div>
     </div>
-
     <!-- Team Section -->
     <div id="team" class="container center-align">
         <h3 class="h3">Meet the Team</h3>
@@ -232,19 +259,20 @@
             </div>
         </div>
     </div>
-
     <!-- Form Section -->
     <div id="customform" class="_form_1"></div>
     <script src="https://pngme.activehosted.com/f/embed.php?id=1" type="text/javascript" charset="utf-8"></script>
     <!-- End Form Section -->
-
     <!-- Footer -->
-
     <!-- End Footer -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
-
 </body>
 
 </html>
