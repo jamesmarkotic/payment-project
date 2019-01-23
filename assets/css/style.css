@@ -280,6 +280,24 @@ p > span {
 #team .p2 {
     color: rgba(0,0,0,0.54);
 }
+/* Form */
+._form-title {
+    font-size: 32px !important;
+    margin-bottom: 32px !important;
+}
+
+._field-wrapper input {
+    padding: 16px !important;
+}
+
+._field-wrapper select {
+    height: 54px !important;
+}
+
+._button-wrapper button {
+    height: 54px !important;
+    width: 100% !important;
+}
 
 /* Footer */
 
@@ -312,6 +330,8 @@ p > span {
     #mobile ul {
         padding-left: 0;
     }
+
+
 }
 
 @media only screen and (max-width: 780px) {
