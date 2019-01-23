@@ -24,7 +24,7 @@
 
 nav {
     background-color: #F92676;
-    height: 64px;
+    height: 70px;
 }
 
 .nav-link {
@@ -186,10 +186,6 @@ p > span {
 }
 
 /* Benefits Section */
-#benefit .square {
-    border: 1px solid #1BD2E7;
-    padding: 45px 43px 20px 45px;
-}
 
 #benefit h3 {
     margin-top: 0;
@@ -199,14 +195,6 @@ p > span {
     padding-left: 45px;
 }
 
-#benefit p {
-    color: rgba(0,0,0,0.54);
-}
-
-#benefit .p1 {
-    margin-bottom: 30px;
-}
-
 .smile:before {
     content: "";
     display: block;
@@ -214,20 +202,36 @@ p > span {
     width: 32px;
     height: 32px;
 }
-
-#benefit .m12 .btn {
-    background: #1BD2E7;
-    font-size: 20px;
-    height: 61px;
-    width: 298px;
-    border: 3px solid #FFFFFF;
-    line-height: 61px;
-    border-radius: 30.5px;
-    margin-top: 83px;
+.benefits-parent {
+    height: 740px;
 }
 
-#benefit .m12 .p1 {
-    color: rgba(0,0,0,0.54);
+.benefits-container {
+ position:absolute;
+ top:200px;
+ height:1000px;
+ padding-top: 122px;
+ padding-bottom:52px;
+ background-color: #1BD2E7;
+
+ transform: skewY(-12deg);
+transform-origin: top left;
+z-index: -100;
+}
+
+.benefits-container > * {
+    transform: skewY(12deg);
+}
+
+.benefits-container-offset {
+    margin-top: -52px;
+}
+
+.benefits-box {
+    border: 2px solid #1BD2E7;
+    padding-left: 46px;
+    padding-top: 34px;
+    background-color: white;
 }
 
 /* OS Section */
@@ -300,7 +304,54 @@ p > span {
 }
 
 /* Footer */
+#footer {
+    color: #FFFFFF;
+    background: #241F20;
+    min-width: 100%;
+    padding: 70px;
+}
+#footer h1 {
+    font-size: 36px;
+}
 
+#footer form {
+    background: #241F20 !important;
+    width: unset;
+}
+
+#footer ._form-content {
+    display: flex;
+}
+
+#footer #_form_5C4830D001281_ ._full_width {
+    width: 230px !important;
+}
+
+#_form_5C48341F3C4D7_ ._form_element {
+    margin-bottom: 0px !important;
+}
+
+._form_element ._x75360938 ._full_width  {
+    margin: 0 30px !important;
+}
+
+#footer label {
+    display: none !important;
+}
+
+._button-wrapper {
+    border: 1px solid #FFFFFF !important;
+    border-radius: 4px;
+}
+
+._form-branding {
+    display: none;
+}
+
+._form-thank-you {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 1299px) {
@@ -316,6 +367,16 @@ p > span {
 }
 
 @media only screen and (max-width: 991px) {
+    nav {
+        height: 75px;
+    }
+    .navbar-collapse {
+        background: #F92676;
+        padding-left: 10px;
+        margin-top: -4px;
+        padding-bottom: 5px;
+    }
+
     #mobile h5 {
         font-size: 15px;
     }
