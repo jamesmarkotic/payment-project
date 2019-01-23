@@ -12,91 +12,84 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .navigation-bar.scrolled {
+        background-color: #F92676 !important;
+        transition: background-color 200ms linear;
+    }
+    </style>
+
     <title>Pngme</title>
 </head>
 
 <body>
-    <!-- Navbar Section -->
-    <!-- <div class="container">
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo"><img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme Logo"></a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#mobile">Mobile Banking</a></li>
-                        <li><a href="#benefit">Early Access</a></li>
-                        <li><a href="#os">App OS</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a class="btn waves-effect waves-light" href="#customform">Early Access</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </div> -->
-    <div class="container-fluid">
+    <div class="container-fluid navigation-bar">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/pngme-logo.svg" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                            <a class="nav-link" href="#">Mobile Banking</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Early Access</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">App OS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Early Access</button>
+
                 </div>
             </nav>
         </div>
     </div>
     <!-- End Navbar Section -->
-    <!-- Hero Section -->
-    <div id="hero" class="container">
-        <div class="row">
-            <div class="col m6">
-                <p>PNGME.COM</p>
-                <h1>Free Digital Currency When You Signup</h1>
-                <a class="btn waves-effect waves-light" href="buttons.html">Get Early Access</a>
-            </div>
-            <div class="col m6">
-                <img class="responsive-img" src="./assets/images/White.png" alt="Phone image">
+
+    <div class="container-fluid hero-gradient position-relative">
+        <div class="hero-bg-left"></div>
+        <div class="hero-bg-right"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="hero-branding"><span>PNGGME.COM</span></p>
+                        <h1>Free Digital Currency When You Signup</h1>
+                        <button type="button" class="btn btn-primary btn-lg shadow p-3 mb-5 bg-white">GET EARLY
+                            ACCESS</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img src="assets/images/White.png" alt="" class="hero-mobile">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Hero Image Testing UNCOMMENT BELOW TO SEE ANGLE -->
-    <!-- <div class="quote">
-    </div> -->
-    <!-- End Hero Section -->
+
     <!-- Mobile Section -->
     <div id="mobile" class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="./assets/images/Pngme-Graphic04-Color-CMYK.svg" alt="Pngme logo">
+                <img src="./assets/images/pngme-logo.svg" alt="Pngme logo">
                 <h3 class="h3">Bankless Mobile Banking</h3>
             </div>
             <div class="col-md-4">
@@ -144,50 +137,47 @@
         </div>
     </div>
     <!-- End Mobile Section -->
+
     <!-- Benefits Section -->
-    <div id="benefit" class="container">
-        <div class="row">
-            <div class="col m6 square">
-                <h3 class="h3">Early Access Benefits</h3>
-                <p class="p1">By registering for early access you will get access to early
-                    member benefits. </p>
-                <div class="row">
-                    <div class="col m6 smile">
-                        <h6 class="h6">Free Payments</h6>
-                        <p>Feeless payments for life</p>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="border: 1px solid tomato;">
+                    <h2>Early Access Benefits</h2>
+                    <p>By registering for early access you will get access to early member benefits. </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Free Payments</h3>
+                            <p>Feeless payments for life</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Interest Rates</h3>
+                            <p>Highest interest rates</p>
+                        </div>
                     </div>
-                    <div class="col m6 smile">
-                        <h6 class="h6">Interest Rates</h6>
-                        <p>Highest interest rates</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Free digital currency</h3>
+                            <p></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Loan Rates</h3>
+                            <p>Lowest interest rates</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col m6 smile">
-                        <h6 class="h6">Singup Bonus</h6>
-                        <p>Free digital currency</p>
-                    </div>
-                    <div class="col m6 smile">
-                        <h6 class="h6">Loan Rates</h6>
-                        <p>Lowest interest rates</p>
-                    </div>
+                <div class="col-md-6">
+                    <img src="assets/images/illustration-people.svg" alt="">
                 </div>
-            </div>
-            <div class="col m6">
-                <!-- DELETE LINE BELOW WHEN CONTENT IS AVAILABLE -->
-                <p style="line-height: 483px; text-align: center">Img and triangle go here, img not included</p>
-            </div>
-            <div class="col m12 center-align">
-                <a class="btn waves-effect waves-light" href="buttons.html">Get Early Access</a>
-                <p class="p1">By registering for early access you will get access to early
-                    member benefits. </p>
             </div>
         </div>
     </div>
+
     <!-- OS Section -->
     <div id="os" class="container">
         <h3 class="h3 text-center">Available on Android and iOS</h3>
         <div class="row">
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3">
                 <h5 class="h5">Coming Soon</h5>
                 <p class="p2">Launching in Q1 2019 our mobile
                     app will feature GBP, EUR, USD
@@ -196,13 +186,10 @@
                     cash and digital currency to receive
                     monthly interest payments</p>
             </div>
-            <div class="col-md-3 col-sm-3">
-                <img class="" src="./assets/images/White.png" alt="Phone image">
+            <div class="col-md-6">
+                <img class="img-fluid" src="./assets/images/os-mobile.svg" alt="Phone image">
             </div>
-            <div class="col-md-3 col-sm-3">
-                <img class=" imgsmall" src="./assets/images/Group8.png" alt="Phone image">
-            </div>
-            <div class="col-md-3 col-sm-3">
+            <div class="col-md-3">
                 <div>
                     <h5 class="h5">Free Digital Currency</h5>
                     <p class="p2">The first 300,000 who signup to pngme will be issued our native digital currency
@@ -273,6 +260,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navigation-bar");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+
+    </script>
 </body>
 
 </html>
