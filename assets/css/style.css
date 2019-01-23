@@ -16,6 +16,12 @@
     position: fixed;
     z-index: 1;
 }
+
+.navigation-bar.scrolled {
+    background-color: #F92676 !important;
+    transition: background-color 200ms linear;
+}
+
 nav {
     background-color: #F92676;
     height: 64px;

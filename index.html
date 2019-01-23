@@ -12,12 +12,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-        .navigation-bar.scrolled {
-        background-color: #F92676 !important;
-        transition: background-color 200ms linear;
-    }
-    </style>
 
     <title>Pngme</title>
 </head>
@@ -261,15 +255,6 @@
         crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $(".navigation-bar");
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            });
-        });
-
-    </script>
 </body>
 
 </html>
