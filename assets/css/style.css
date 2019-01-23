@@ -144,6 +144,11 @@ p > span {
     margin-bottom: 88px;
 }
 
+#mobile .col-md-4 img {
+    width: 310px;
+    margin-left: 22px;
+}
+
 .atm {
     content: "";
     display: block;
@@ -360,6 +365,12 @@ z-index: -100;
     }
 }
 
+@media only screen and (max-width: 1199px) {
+    #mobile .col-md-4 img {
+        margin-left: 10px;
+    }
+}
+
 @media only screen and (max-width: 1099px) {
     #hero h1 {
         font-size: 60px;
@@ -375,6 +386,26 @@ z-index: -100;
         padding-left: 10px;
         margin-top: -4px;
         padding-bottom: 5px;
+    }
+
+    h1 {
+        height: 340px;
+        font-size: 70px;
+        line-height: 82px;
+        margin-bottom: 35px;
+    }
+
+    .hero-mobile {
+        width: 379px;
+        margin-left: 20px;
+    }
+
+    #mobile .col-md-4 img {
+        left: -24px;
+        top: -55px;
+        position: absolute;
+        width: 290px;
+        margin-left: 0;
     }
 
     #mobile h5 {
@@ -395,13 +426,27 @@ z-index: -100;
 
 }
 
-@media only screen and (max-width: 780px) {
-    #hero h1 {
-        font-size: 50px;
-    }
-}
-
 @media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    .hero-content .row .col-md-6:nth-child(1) {
+        margin-left: 50px;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    #mobile .col-md-4 img {
+        left: unset;
+        top: unset;
+        position: unset;
+        width: 310px;
+        margin-left: 97px;
+    }
+
     #mobile h5 {
         font-size: 24px;
     }
@@ -426,6 +471,50 @@ z-index: -100;
 @media only screen and (max-width: 600px) {
     #mobile p {
         margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 509px) {
+    #mobile h3 {
+        font-size: 35px;
+    }
+
+    #mobile .col-md-4 img {
+        margin-left: 83px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #mobile .col-md-4 img {
+        margin-left: 67px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .hero-content .row .col-md-6:nth-child(1) {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .hero-content .row .col-md-6:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    #mobile .col-md-4 img {
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #mobile .col-md-4 img {
+        margin-left: 36px;
     }
 }
 
