@@ -2,6 +2,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #FFFFFF;
+}
+
 /* Helpers */
 .position-relative {
     position: relative;
@@ -9,6 +17,14 @@
 
 .position-absolute {
     position: absolute;
+}
+
+.p-b-row {
+    padding-bottom:132px;
+}
+
+.grey-text {
+    color: rgba(0, 0, 0, .54);
 }
 
 /* Navbar */
@@ -22,20 +38,88 @@
     transition: background-color 200ms linear;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+.benefits-parent {
+    height: 740px;
+}
+
+.benefits-container {
+ position:absolute;
+ top:200px;
+ height:1000px;
+ padding-top: 122px;
+ padding-bottom:52px;
+ background-color: #1BD2E7;
+
+ transform: skewY(-12deg);
+transform-origin: top left;
+z-index: -100;
+}
+
+.benefits-container > * {
+    transform: skewY(12deg);
+}
+
+.benefits-container-offset {
+    margin-top: -52px;
+}
+
+.benefits-box {
+    border: 2px solid #1BD2E7;
+    padding-left: 46px;
+    padding-top: 34px;
+    background-color: white;
+}
+
 nav {
     background-color: #F92676;
-    height: 70px;
+    height: 64px;
+    margin: 8px 0 8px 0;
+}
+
+.m-b-8 {
+    margin-bottom: 8px; 
 }
 
 .nav-link {
     color:white !important;
+    font-size:18px;
 }
 
 .btn-outline-success {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 24px;
     color:white;
     width:142px;
+    font-size:18px;
+}
+
+.btn-outline-lg {
+    border: 2px solid white;
+    border-radius: 31px;
+    color:white;
+    width:300px;
+    font-size:22px;
+    height:62px;
+}
+
+.btn-outline-lg:hover {
+    color: white;
+}
+
+.btn-outline-success:active {
+    background-color: white;
+    color: #F92676;
+    border: 1px solid transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+    color: #F92676;
+    border: 1px solid transparent;
 }
 
 .bg-magenta {
@@ -48,7 +132,10 @@ nav {
 
 .hero-branding {
     /* Margin top to space from navbar */
-    margin-top: 102px; 
+    margin-top: 92px; 
+    opacity: 0.52;
+    font-size:22px;
+    font-weight:bolder;
 }
 
 .hero-bg-left {
@@ -173,7 +260,7 @@ p > span {
     background: url("../images/Money.svg") no-repeat;
     padding-left: 40px;
 }
-.gihub {
+.split {
     content: "";
     display: block;
     background: url("../images/split.svg") no-repeat;
@@ -192,21 +279,6 @@ p > span {
 
 /* Benefits Section */
 
-#benefit h3 {
-    margin-top: 0;
-}
-
-#benefit .row .m6:nth-child(even) {
-    padding-left: 45px;
-}
-
-.smile:before {
-    content: "";
-    display: block;
-    background: url("../images/Smile.svg") no-repeat;
-    width: 32px;
-    height: 32px;
-}
 .benefits-parent {
     height: 740px;
 }
@@ -242,8 +314,8 @@ z-index: -100;
 /* OS Section */
 #os {
     padding-top: 80px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     background: linear-gradient(302.11deg, #FE3AA4 0%, #FB2978 100%);
     color: #FFFFFF;
     width: 100%;
@@ -254,6 +326,16 @@ z-index: -100;
     margin-bottom: 80px;
 }
 
+#os .row {
+    height: 462px;
+}
+
+#os img {
+    left: 28px;
+    width: 440px;
+    position: absolute;
+}
+
 #os .col-md-3:nth-child(1) {
     margin-top: 30px;
 }
@@ -261,11 +343,15 @@ z-index: -100;
 #os .col-md-3:nth-child(3) {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 60px;
 }
 
 #os p {
-    font-size: 12px;
+    height: 149px;	
+    width: 250px;	
+    color: #FFFFFF;		
+    font-size: 14px;	
+    letter-spacing: -0.02px;	
+    line-height: 24px;
 }
 
 /* Team Section */
@@ -402,6 +488,41 @@ z-index: -100;
     }
 }
 
+@media only screen and (max-width: 1244px) {
+    #os img {
+        width: 417px;
+        left: 35px;
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    #os img {
+        width: 396px;
+        left: 40px;
+    }
+    #os .col-md-3:nth-child(1) {
+        margin-top: 42px;
+    }
+    #os p {
+        height: 184px;
+        width: 250px;
+        color: #FFFFFF;
+        font-size: 14px;
+        letter-spacing: -0.08px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #os img {
+        width: 365px;
+        left: 54px;
+    }
+    #os p {
+        height: 209px;
+    }
+}
+
 @media only screen and (max-width: 1199px) {
     #mobile .col-md-4 img {
         margin-left: 10px;
@@ -459,8 +580,6 @@ z-index: -100;
     #mobile ul {
         padding-left: 0;
     }
-
-
 }
 
 @media only screen and (max-width: 767px) {
